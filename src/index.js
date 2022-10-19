@@ -16,7 +16,7 @@ class Football {
         console.log(this.toString());
     }
     toString() {
-        return this.wi + " (" + this.hossz + " s)";
+        return this.winner + " ";
     }
 }
 _Football_golokszama = new WeakMap();

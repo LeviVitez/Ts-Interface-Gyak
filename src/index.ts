@@ -6,7 +6,7 @@ interface Results {
     toString():string;
 }
 class Football implements Results{
-    winner: string;: string;
+    winner: string;
     #golokszama:number;
 
     constructor (winner:string,golokszama:number){
@@ -18,7 +18,7 @@ class Football implements Results{
         console.log(this.toString());
     }
     toString(): string {
-        return this.wi+" ("+this.hossz+" s)"
+        return this.winner+" "
     }
 
 }
