@@ -92,12 +92,12 @@ class Calvinball {
     }
 }
 _Calvinball_endScore = new WeakMap();
-let fb1 = new Football("Real Madrid", new Date(Date.now()), 6, 2);
-let fb2 = new Football("Sevilla", new Date(Date.now()), 3, 1);
+let fb1 = new Football("újpest", new Date(Date.now()), 6, 2);
+let fb2 = new Football("Fradi", new Date(Date.now()), 3, 1);
 let c1 = new Calvinball("Calvin", new Date(Date.now()));
 let c2 = new Calvinball("Hobbes", new Date(Date.now()));
-let m1 = new Marathon("Ndereba", new Date(Date.now()), 112, 50);
-let m2 = new Marathon("Desisa", new Date(Date.now()), 117, 12);
+let m1 = new Marathon("Zhou Chunxiu", new Date(Date.now()), 112, 50);
+let m2 = new Marathon("Deena Kastor", new Date(Date.now()), 117, 12);
 let results = [fb1, fb2, c1, c2, m1, m2];
 results.forEach((e) => {
     console.log(e.result());

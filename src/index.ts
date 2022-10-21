@@ -105,14 +105,14 @@ interface Result {
     }
   }
   
-  let fb1: Football = new Football("Real Madrid", new Date(Date.now()), 6, 2);
-  let fb2: Football = new Football("Sevilla", new Date(Date.now()), 3, 1);
+  let fb1: Football = new Football("újpest", new Date(Date.now()), 6, 2);
+  let fb2: Football = new Football("Fradi", new Date(Date.now()), 3, 1);
   
   let c1: Calvinball = new Calvinball("Calvin", new Date(Date.now()));
   let c2: Calvinball = new Calvinball("Hobbes", new Date(Date.now()));
   
-  let m1: Marathon = new Marathon("Ndereba", new Date(Date.now()), 112, 50);
-  let m2: Marathon = new Marathon("Desisa", new Date(Date.now()), 117,12);
+  let m1: Marathon = new Marathon("Zhou Chunxiu", new Date(Date.now()), 112, 50);
+  let m2: Marathon = new Marathon("Deena Kastor", new Date(Date.now()), 117,12);
   
   let results: Result[] = [fb1, fb2, c1, c2, m1, m2];
   
